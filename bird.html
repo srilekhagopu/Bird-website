@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>Bird Website</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing:border-box;
+
+            }
+            body{
+                background-color: rgb(76, 78, 78);
+            }
+            header{
+                background-color: rgb(29, 135, 29);
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+                padding-top: 30px;
+                width: 100%;
+                font-size: 2em;
+                padding: 25px;
+
+            }
+            h2{
+                text-shadow: 2px 1px pink;
+            }
+            .image{
+                position: absolute;
+                top: 8px;
+                right: 50px;
+                font-size: 18px;
+            }
+            .image img{
+                height: 100px;
+            }
+            nav{
+                height: 50px;
+                width: auto;
+                font-size: 20px;
+                background-color: rgb(14, 238, 14)
+            }
+            nav a{
+                text-transform: capitalize;
+                text-decoration: none;
+                color: black;
+                cursor: pointer;
+            }
+            a{
+                padding: 5px 50px;
+                text-align: center;
+                margin-top: 50px;
+                display: inline;
+                justify-content: space-around;
+                align-items: center;
+            }
+            main {
+  display: flex;
+  background-color: chartreuse;
+  height: 500px;
+}
+
+article{
+  flex:4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 60%;
+}
+
+aside img {
+  max-width: 40%;
+  width: 150px;
+  height: auto;
+  display: inline;
+}
+h3{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 30px;
+}
+
+    
+        </style>
+    </head>
+    <body>
+        <header>
+                <h2>BIRDWATCHER</h2>
+                <div class="image"><img src="dove.png"></div>
+
+        </header>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">Get started</a>
+            <a href="#">photos</a>
+            <a href="#">gear</a>
+            <a href="#">forum</a>
+
+        </nav>
+        <br>
+        <main>
+            <article>
+                <h3>Welcome</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nisi dolorem deserunt molestiae ipsam nam eveniet amet neque maxime quidem libero, similique repellat cupiditate quis unde recusandae quo illo blanditiis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nam autem aliquam tempora sed molestias beatae tempore iste! Sit illum rerum dolorem cum totam ipsam corrupti nemo officiis aperiam dolore.</p>
+            </article>
+            <aside>
+                <h3>Favourite photos</h3>
+                <div class="imagess"><img src="favorite-1.jpg">
+                <img src="favorite-2.jpg">
+                <img src="favorite-3.jpg">
+                <img src="favorite-4.jpg">
+                </div>
+            </aside>
+        </main>
+        <footer>
+            Copyrights reserved</footer>
+        </footer>
+    </body>
+</html>
